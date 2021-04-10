@@ -76,7 +76,7 @@ public class StartApp {
 			
 		}while (isTrue == false);
 		
-		System.out.println("Sua senha é: \n" + password);
+		view.showPass(password);
 		
 	}
 

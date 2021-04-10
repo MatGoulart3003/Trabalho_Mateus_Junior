@@ -37,4 +37,7 @@ public class View {
 		System.out.println("Digite 1 para sim e 0 para não: ");
 	}
 	
+	public void showPass(String password) {
+		System.out.println("Sua senha é: \n" + password);
+	}
 }
